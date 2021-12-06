@@ -184,4 +184,25 @@ h1 {
 
 .right-col-text {
     padding-left: 4.25em;
+    padding-right: 6em;
+}
+
+/* ABOUT ME */
+.about-me {
+    background-color: var(--dark-blue);
+    padding: 6em;
+}
+
+.about-me-heading {
+    color: var(--light-blue);
+    font-family: OCR A;
+    font-weight: normal;
+    font-size: 3em;
+    padding-bottom: 1em;
+}
+
+.about-me-desc {
+    color: white;
+    font-family: Myanmar Text;
+    font-size: 1.5em;
 }
