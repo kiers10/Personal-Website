@@ -248,6 +248,7 @@ h1 {
     padding: 6em;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 40px;
 }
 
 .about-me-heading {
@@ -261,7 +262,22 @@ h1 {
 .about-me-desc {
     color: white;
     font-family: Myanmar Text;
-    font-size: 1.5em;
+    font-size: 1.3em;
+}
+
+.up-arrow {
+    padding-left: 0.25em;
+    width: 3.5%;
+}
+
+.right-about {
+    text-align: center;
+    align-items: center;
+}
+
+.about-pics {
+    width: 80%;
+    padding-bottom: 3em;
 }
 
 /* CONTACT ME */
