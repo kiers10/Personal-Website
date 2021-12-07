@@ -56,16 +56,22 @@ li a:hover {
     font-weight: bold;
 }
 
-/* 
-.resume-btn {
-    border: 3px solid var(--dark-blue);
-    padding: 0.5em 1em;
-    border-radius: 25px;
-} */
-
 .download-img {
     width: 13%;
 }
+
+.download-img-hover {
+    display: none;
+    width: 15%;
+}
+
+.resume-btn:hover .download-img {
+    display: none;
+}
+.resume-btn:hover .download-img-hover {
+    display: inline;
+}
+
 
 /* INTRODUCTION */
 .intro {
