@@ -69,6 +69,13 @@ li a:hover {
     font-weight: bold;
 }
 
+.github-li {
+    margin-left: -4em;
+}
+.linkedin-li {
+    margin-left: -1em;
+}
+
 .download-img {
     width: 13%;
 }
@@ -120,6 +127,12 @@ li a:hover {
     font-weight: bold;
     font-size: 25px;
     padding: 0.5em 1.5em;
+}
+
+.intro-button:hover .intro-btn {
+    cursor: pointer;
+    background-color: var(--light-blue);
+    color: var(--dark-blue);
 }
 
 .intro-right {
