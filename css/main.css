@@ -20,7 +20,7 @@
 }
 
 .email-img-nav {
-    width: 30%;
+    width: 32%;
 }
 
 .github-img-nav {
@@ -237,6 +237,59 @@ h1 {
     font-family: Myanmar Text;
     font-size: 1.5em;
 }
+
+/* CONTACT ME */
+.contact-me {
+    text-align: center;
+    padding: 6em;
+}
+
+.contact-me-heading {
+    color: var(--dark-blue);
+    font-family: OCR A;
+    font-weight: normal;
+    font-size: 3em;
+    padding-bottom: 1em;
+}
+
+.contact-me-desc {
+    color: var(--grey-black);
+    font-family: Myanmar Text;
+    font-size: 1.5em;
+    padding: 0em 7em;
+    padding-bottom: 1em;
+}
+
+.logo-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.email-img-contact {
+    width: 62%;
+}
+
+.github-img-contact {
+    width: 100%;
+}
+
+.github-img-contact-hover {
+    display: none;
+}
+
+/* .contact-github-img:hover .github-img-contact {
+    display: none;
+}
+.contact-github-img:hover .github-img-contact-hover {
+    display: inline;
+} */
+
+.linkedin-img-contact {
+    width: 60%;
+}
+
 
 /* SCROLL BAR */
 ::-webkit-scrollbar {
