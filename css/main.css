@@ -64,7 +64,7 @@ li a:hover {
 } */
 
 .download-img {
-    width: 1.3%;
+    width: 13%;
 }
 
 /* INTRODUCTION */
@@ -99,7 +99,7 @@ li a:hover {
     color: white;
     /* font-family: Myanmar Text; */
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     padding: 0.5em 1.5em;
 }
 
@@ -214,6 +214,8 @@ h1 {
 .about-me {
     background-color: var(--dark-blue);
     padding: 6em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .about-me-heading {
@@ -228,4 +230,20 @@ h1 {
     color: white;
     font-family: Myanmar Text;
     font-size: 1.5em;
+}
+
+/* SCROLL BAR */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--light-blue);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--dark-blue);
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
 }
