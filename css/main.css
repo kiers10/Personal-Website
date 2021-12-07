@@ -12,11 +12,20 @@
 }
 
 .navy {
-    padding: 1em;
+    width: 100%;
+    background-color: white;
+    padding: 0em 1.5em;
+    padding-top: 0.5em;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    z-index: 2;
     /* text-align: end; */
+
+    position: fixed;
+    top: 0;
 }
 
 .email-img-nav {
@@ -29,6 +38,10 @@
 
 .linkedin-img-nav {
     width: 30%;
+}
+
+.resume-btn {
+    padding-right: 1.5em;
 }
 
 ul#navigation {

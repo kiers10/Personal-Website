@@ -11,7 +11,7 @@
 <body>
     <!-- Navigation Bar -->
     <div class="navbar">
-        <nav class="navy">
+        <nav id="navy-nav" class="navy">
             <div class="navy-links">
                 <ul id="navigation">
                     <li>
@@ -44,7 +44,7 @@
             <ul id="navigation">
                 <li><a href="#my-projects">Projects</a></li>
                 <li><a href="#my-about-me">About Me</a></li>
-                <li><a href="">Contact Me</a></li>
+                <li><a href="#my-contact-me">Contact Me</a></li>
                 <li><a class="resume-btn" href="resume/Internship Resume.pdf" download="Kiersten Densmore Resume">Resume  <span><img class="download-img" src="images/download.svg" alt="Download Resume"></span><span><img class="download-img-hover" src="images/download-blue.svg" alt="Download Resume"></span></a></li>
             </ul>
         </nav>
@@ -122,7 +122,7 @@
     </div>
 
     <!-- CONTACT ME -->
-    <div class="contact-me">
+    <div id="my-contact-me" class="contact-me">
         <p class="contact-me-heading">Let's get in touch!</p>
         <p class="contact-me-desc">I am currently looking to acquire an internship for Summer 2022. Feel free to reach out to me if you would like to network or just chat! </p>
         <div class="logo-links">
@@ -140,4 +140,19 @@
             </a>
         </div>
     </div>
+
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navy-nav").style.top = "0";
+          } else {
+            document.getElementById("navy-nav").style.top = "-6em";
+          }
+          prevScrollpos = currentScrollPos;
+        }
+    </script>
+
 </body>
+</html>
