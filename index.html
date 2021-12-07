@@ -12,6 +12,8 @@
     <!-- Navigation Bar -->
     <div class="navbar">
         <nav id="navy-nav" class="navy">
+            <img id="open-nav" class="mobile-open-nav" src="images/mobile-menu.svg" alt="Open Navigation" onclick="mobileNavCTA()">
+            <img id="close-nav" class="mobile-close-nav" src="images/mobile-close.svg" alt="Close Navigation" onclick="mobileNavCTA()">
             <div class="navy-links">
                 <ul id="navigation">
                     <li>
@@ -30,23 +32,16 @@
                         </a>
                     </li>
                 </ul>
-
-                <!-- <a href="https://github.com/kiers10/">
-                    <img class="email-img-nav" src="images/email.svg" alt="Link to My Email">
-                </a>
-                <a href="https://github.com/kiers10/">
-                    <img class="github-img-nav" src="images/github.svg" alt="Link to My GitHub">
-                </a>
-                <a href="https://github.com/kiers10/">
-                    <img class="linkedin-img-nav" src="images/linkedin.svg" alt="Link to My LinkedIn">
-                </a> -->
             </div>
-            <ul id="navigation">
-                <li><a href="#my-projects">Projects</a></li>
-                <li><a href="#my-about-me">About Me</a></li>
-                <li><a href="#my-contact-me">Contact Me</a></li>
-                <li><a class="resume-btn" href="resume/Internship Resume.pdf" download="Kiersten Densmore Resume">Resume  <span><img class="download-img" src="images/download.svg" alt="Download Resume"></span><span><img class="download-img-hover" src="images/download-blue.svg" alt="Download Resume"></span></a></li>
-            </ul>
+            <div class="break"></div>
+            <div id="nav-items-cta" class="nav-items">
+                <ul id="navigation">
+                    <li><a href="#my-projects">Projects</a></li>
+                    <li><a href="#my-about-me">About Me</a></li>
+                    <li><a href="#my-contact-me">Contact Me</a></li>
+                    <li><a class="resume-btn" href="resume/Internship Resume.pdf" download="Kiersten Densmore Resume">Resume  <span><img class="download-img" src="images/download.svg" alt="Download Resume"></span><span><img class="download-img-hover" src="images/download-blue.svg" alt="Download Resume"></span></a></li>
+                </ul>
+            </div>
         </nav>
     </div>
 
@@ -148,18 +143,7 @@
         </div>
     </div>
 
-    <script>
-        var prevScrollPos = window.pageYOffset;
-        window.onscroll = function() {
-        var currentScrollPos = window.pageYOffset;
-          if (prevScrollPos > currentScrollPos) {
-            document.getElementById("navy-nav").style.top = "0";
-          } else {
-            document.getElementById("navy-nav").style.top = "-6em";
-          }
-          prevScrollPos = currentScrollPos;
-        }
-    </script>
+    <script src="js/code.js"></script>
 
 </body>
 </html>
