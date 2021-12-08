@@ -219,6 +219,34 @@ h1 {
     color: var(--dark-blue);
 }
 
+/* MOBILE NAV */
+@media only screen and (max-width: 600px) {
+    .intro {
+        grid-template-columns: repeat(1, 1fr);
+        padding-top: 1em;
+    }
+
+    .intro-right {
+        grid-row: 1;
+        padding-top: 1em;
+        padding-right: 0em;
+        margin-left: 0px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .description {
+        font-size: 1.25em;
+        padding-bottom: 1.5em;
+    }
+
+    .intro-btn {
+        position: static;
+    }
+}
+
 /* PROJECTS */
 .projects {
     width: 100%;
