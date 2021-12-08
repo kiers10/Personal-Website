@@ -245,6 +245,10 @@ h1 {
     .intro-btn {
         position: static;
     }
+
+    .pic-of-me {
+        width: 100%;
+    }
 }
 
 /* PROJECTS */
@@ -333,7 +337,8 @@ h1 {
 /* MOBILE PROJECT */
 @media only screen and (max-width: 600px) {
     .project-heading {
-        padding: 1.3em 0em;
+        padding: 0em;
+        padding-top: 1.3em;
         font-size: 2em;
         position: static;
         text-align: center;
@@ -343,6 +348,7 @@ h1 {
 
     .project-title {
         font-size: 1.5em;
+        padding-top: 2em;
     }
 
     .list-projects {
@@ -351,6 +357,7 @@ h1 {
 
     .project {
         grid-template-columns: repeat(1, 1fr);
+        padding: 0em;
     }
 
     .left-col-text {
@@ -358,6 +365,22 @@ h1 {
     }
     .right-col-text {
         padding: 2em;
+    }
+
+    .project-right-img {
+        margin-right: -40px;
+    }
+    
+    .project-left-img {
+        margin-left: -40px;
+    }
+
+    .left-col-img {
+        grid-row: 2;
+    }
+
+    .tech {
+        padding-top: 2em;
     }
 }
 
@@ -397,6 +420,27 @@ h1 {
 .about-pics {
     width: 80%;
     padding-bottom: 2.25em;
+}
+
+/* MOBILE ABOUT ME */
+@media only screen and (max-width: 600px) {
+    .about-me {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 4em 2em;
+    }
+
+    .about-me-heading {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .about-me-desc {
+        font-size: 1.1em;
+    }
+
+    .about-pics {
+        width: 100%;
+    }
 }
 
 /* CONTACT ME */
@@ -451,6 +495,22 @@ h1 {
     width: 60%;
 }
 
+/* MOBILE CONTACT ME */
+@media only screen and (max-width: 600px) {
+    .contact-me {
+        padding: 4em 2em;
+    }
+
+    .contact-me-heading {
+        font-size: 2em;
+    }
+
+    .contact-me-desc {
+        padding: 0em;
+        padding-bottom: 2em;
+        font-size: 1.25em;
+    }
+}
 
 /* SCROLL BAR */
 ::-webkit-scrollbar {
