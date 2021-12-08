@@ -337,7 +337,7 @@ h1 {
 /* MOBILE PROJECT */
 @media only screen and (max-width: 600px) {
     .wave {
-        margin-bottom: -5px;
+        margin-bottom: -8px;
     }
 
     .project-heading {
