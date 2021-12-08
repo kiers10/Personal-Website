@@ -219,7 +219,7 @@ h1 {
     color: var(--dark-blue);
 }
 
-/* MOBILE NAV */
+/* MOBILE INTRO */
 @media only screen and (max-width: 600px) {
     .intro {
         grid-template-columns: repeat(1, 1fr);
@@ -328,6 +328,37 @@ h1 {
 .right-col-text {
     padding-left: 4.25em;
     padding-right: 6em;
+}
+
+/* MOBILE PROJECT */
+@media only screen and (max-width: 600px) {
+    .project-heading {
+        padding: 1.3em 0em;
+        font-size: 2em;
+        position: static;
+        text-align: center;
+        margin-top: 0;
+        background-color: var(--light-blue);
+    }
+
+    .project-title {
+        font-size: 1.5em;
+    }
+
+    .list-projects {
+        padding-top: 1em;
+    }
+
+    .project {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .left-col-text {
+        padding: 2em;
+    }
+    .right-col-text {
+        padding: 2em;
+    }
 }
 
 /* ABOUT ME */
