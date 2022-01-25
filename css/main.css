@@ -462,6 +462,7 @@ h1 {
 }
 
 .about-pics {
+    display: none;
     width: 80%;
     padding-bottom: 2.25em;
 }
