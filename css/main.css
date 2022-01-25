@@ -483,18 +483,20 @@ h1 {
 }
 
 .about-pics {
-    /* display: none; */
-    width: 80%;
+    text-align: left;
+    width: 40vw;
+    margin-left: auto;
     padding-bottom: 2.25em;
 }
 .football-pic {
+    padding-left: 2vw;
     padding-top: 2vw;
     width: 18vw;
 }
 .family-pic {
     position: absolute;
     padding-top: 0vw;
-    margin-left: -2.5vw;
+    margin-left: -1.75vw;
     width: 15vw;
 }
 .friends-pic {
