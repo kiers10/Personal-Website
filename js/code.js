@@ -1,16 +1,16 @@
 // Hide/Show nav bar when scrolling down/up
-var prevScrollPos = window.pageYOffset;
-window.onscroll = function() {
-    if ($(window).width() <= 600) {
-        var currentScrollPos = window.pageYOffset;
-        if (prevScrollPos > currentScrollPos) {
-            document.getElementById("navy-nav").style.top = "0";
-        } else {
-            document.getElementById("navy-nav").style.top = "-6em";
-        }
-        prevScrollPos = currentScrollPos;
-    }
-}
+// var prevScrollPos = window.pageYOffset;
+// window.onscroll = function() {
+//     if ($(window).width() <= 600) {
+//         var currentScrollPos = window.pageYOffset;
+//         if (prevScrollPos > currentScrollPos) {
+//             document.getElementById("navy-nav").style.top = "0";
+//         } else {
+//             document.getElementById("navy-nav").style.top = "-6em";
+//         }
+//         prevScrollPos = currentScrollPos;
+//     }
+// }
 
 // Mobile navigation menu
 function mobileNavCTA() {
