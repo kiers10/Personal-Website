@@ -152,6 +152,33 @@ li a:hover {
     }
 }
 
+.construction {
+    /* margin-top: -5em; */
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+#construction-img-1, #construction-msg, #construction-img-2 {
+    display: inline-block;
+}
+
+#construction-img-1 {
+    vertical-align: middle;
+    width: 5%;
+    padding-right: 2em;
+}
+
+#construction-msg {
+    font-family: Myanmar Text;
+    /* font-size: 1.25em; */
+    font-size: 1.5vw;
+}
+
+#construction-img-2 {
+    vertical-align: middle;
+    width: 5%;
+    padding-left: 2em;
+}
 
 /* INTRODUCTION */
 .intro {
@@ -170,13 +197,17 @@ li a:hover {
 }
 
 .pic-of-me {
-    width: 80%;
+    /* width: 80%; */
+    width: 35vw;
 }
 
 .intro-btn {
     position: absolute;
-    top: 70%;
-    left: 33%;
+    /* top: 70%; */
+    /* left: 33%; */
+    top: 68vh;
+    left: 32vw;
+
 
     background-color: var(--dark-blue);
     border: none;
@@ -185,7 +216,8 @@ li a:hover {
     color: white;
     /* font-family: Myanmar Text; */
     font-weight: bold;
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 1.75vw;
     padding: 0.5em 1.5em;
 }
 
@@ -204,7 +236,8 @@ li a:hover {
 h1 {
     color: var(--dark-blue);
     font-family: OCR A;
-    font-size: 2.85em;
+    /* font-size: 2.85em; */
+    font-size: 3.25vw;
     font-weight: normal;
     padding-bottom: 1em;
 }
@@ -212,7 +245,8 @@ h1 {
 .description {
     color: var(--grey-black);
     font-family: Myanmar Text;
-    font-size: 1.5em;
+    /* font-size: 1.5em; */
+    font-size: 1.75vw;
 }
 
 .highlight {
@@ -266,12 +300,14 @@ h1 {
 .project-heading {
     position: absolute;
     margin-top: -90px;
-    padding-left: 4.5em;
+    /* padding-left: 4.5em; */
+    padding-left: 16.5vw;
 
     color: var(--grey-black);
     font-family: OCR A;
     font-weight: normal;
-    font-size: 3em;
+    /* font-size: 3em; */
+    font-size: 3.25vw;
 }
 
 .list-projects {
@@ -291,14 +327,16 @@ h1 {
     color: var(--dark-blue);
     font-family: OCR A;
     font-weight: normal;
-    font-size: 2em;
+    /* font-size: 2em; */
+    font-size: 2.25vw;
     padding-bottom: 1em;
 }
 
 .project-desc {
     color: var(--grey-black);
     font-family: Myanmar Text;
-    font-size: 1.1em;
+    /* font-size: 1.1em; */
+    font-size: 1.55vw;
 }
 
 .tech {
@@ -401,14 +439,16 @@ h1 {
     color: var(--light-blue);
     font-family: OCR A;
     font-weight: normal;
-    font-size: 3em;
+    /* font-size: 3em; */
+    font-size: 3.25vw;
     padding-bottom: 1em;
 }
 
 .about-me-desc {
     color: white;
     font-family: Myanmar Text;
-    font-size: 1.3em;
+    /* font-size: 1.3em; */
+    font-size: 1.55vw;
 }
 
 .up-arrow {
@@ -457,14 +497,16 @@ h1 {
     color: var(--dark-blue);
     font-family: OCR A;
     font-weight: normal;
-    font-size: 3em;
+    /* font-size: 3em; */
+    font-size: 3.25vw;
     padding-bottom: 1em;
 }
 
 .contact-me-desc {
     color: var(--grey-black);
     font-family: Myanmar Text;
-    font-size: 1.5em;
+    /* font-size: 1.5em; */
+    font-size: 1.55vw;
     padding: 0em 7em;
     padding-bottom: 1em;
 }
