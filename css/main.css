@@ -115,14 +115,16 @@ li a:hover {
 
     .mobile-open-nav {
         display: inline;
-        padding: 2em;
+        padding: 1em;
         padding-right: 3em;
+        width: 8vw;
     }
 
     .mobile-close-nav {
         display: none;
-        padding: 2em;
+        padding: 1em;
         padding-right: 3em;
+        width: 8vw;
     }
     
     .navy-links {
