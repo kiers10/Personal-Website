@@ -529,7 +529,26 @@ h1 {
     }
 
     .about-pics {
+        text-align: center;
         width: 100%;
+        margin-left: -17vw;
+    }
+
+    .football-pic {
+        width: 35vw;
+    }
+    .family-pic {
+        width: 30vw;
+    }
+    .friends-pic {
+        width: 32.5vw;
+        margin-top: -4.5vw;
+        padding-left: 4vw;
+    }
+    .charlie-pic {
+        width: 28vw;
+        margin-top: -13.5vw;
+        margin-left: -.5vw;
     }
 }
 
