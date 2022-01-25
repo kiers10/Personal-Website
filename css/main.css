@@ -180,6 +180,20 @@ li a:hover {
     padding-left: 2em;
 }
 
+@media only screen and (max-width: 600px) {
+    #construction-msg {
+        font-size: 3.5vw;
+    }
+
+    #construction-img-1 {
+        padding-right: 0em;
+    }
+
+    #construction-img-2 {
+        padding-left: 0em;
+    }
+}
+
 /* INTRODUCTION */
 .intro {
     padding: 1em 2em;
@@ -278,6 +292,7 @@ h1 {
 
     .intro-btn {
         position: static;
+        font-size: 4.75vw;
     }
 
     .pic-of-me {
@@ -401,6 +416,10 @@ h1 {
         grid-template-columns: repeat(1, 1fr);
         padding: 0em;
     }
+    
+    .project-desc {
+        font-size: 4.50vw;
+    }
 
     .left-col-text {
         padding: 2em;
@@ -480,7 +499,7 @@ h1 {
     }
 
     .about-me-desc {
-        font-size: 1.1em;
+        font-size: 4.50vw;
     }
 
     .about-pics {
@@ -555,7 +574,8 @@ h1 {
     .contact-me-desc {
         padding: 0em;
         padding-bottom: 2em;
-        font-size: 1.25em;
+        /* font-size: 1.25em; */
+        font-size: 4.50vw;
     }
 }
 
