@@ -647,7 +647,7 @@ h1 {
     transition: opacity 500ms;
 }
   
-.js-scroll.scrolled {
+.sutton-scroll.scrolled, .majikk-scroll.scrolled, .kindling-scroll.scrolled {
     opacity: 1;
 }
 
